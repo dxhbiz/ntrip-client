@@ -11,7 +11,7 @@ const options = {
   username: 'test',
   password: 'test',
   xyz: [-1983430.2365, -4937492.4088, 3505683.7925],
-  // the interval of send nmea, unit is second
+  // the interval of send nmea, unit is millisecond
   interval: 2000,
 };
 
