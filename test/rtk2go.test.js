@@ -1,5 +1,6 @@
 const { NtripClient } = require('../index');
 
+
 const options = {
   host: 'rtk2go.com',
   port: 2101,
@@ -26,9 +27,3 @@ client.on('error', (err) => {
 });
 
 client.run();
-
-
-setTimeout(() => {
-  client.close();
-}, 10000);
-
